@@ -1,0 +1,47 @@
+{
+  "skill_name": "sri-lanka-smart-buyer",
+  "evals": [
+    {
+      "id": 0,
+      "name": "tech-laptop-smartphone-sourcing",
+      "prompt": "I'm a university student in Colombo on a tight budget. I need to buy a reliable budget Android phone (or used iPhone) and a laptop for coding. Where in Colombo should I go to get the best price without getting ripped off with fakes or blocked phones, what prices should I expect in LKR, and how do I verify it's genuine?",
+      "expected_output": "Dual-track recommendations covering Unity Plaza and Liberty Plaza / Daraz, realistic LKR price benchmarks, TRCSL SMS verification instructions, battery and hardware stress testing, and warranty decoding (Agent vs Shop vs Checking).",
+      "files": [],
+      "assertions": [
+        "mentions_unity_plaza_and_shops",
+        "explains_trcsl_sms_check_1909",
+        "distinguishes_warranty_types",
+        "quotes_prices_in_lkr",
+        "identifies_liberty_plaza_or_pettah_1st_cross"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "garments-export-surplus-pamunuwa",
+      "prompt": "I want to buy good quality linen shirts, casual cotton t-shirts, and everyday clothes for cheap. I heard about Pamunuwa and Pettah. Which one should I visit, what time should I go, how can I tell export quality from damaged rejects, and what are the Sinhala phrases to negotiate the price down?",
+      "expected_output": "Guidance comparing Pamunuwa (Maharagama) vs Pettah 2nd Cross, the 6:00 AM - 9:00 AM timing window, Grade A/B/C defect inspection tests, fair LKR price benchmarks, and exact Sinhala bargaining phrases with phonetics.",
+      "files": [],
+      "assertions": [
+        "identifies_pamunuwa_maharagama",
+        "specifies_early_morning_hours",
+        "explains_export_surplus_defect_inspection",
+        "provides_sinhala_bargaining_phrase",
+        "quotes_clothing_prices_in_lkr"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "auto-spares-and-teak-furniture",
+      "prompt": "I need to replace the front shock absorbers and lower arm bushes for my Toyota, and I also want to buy a solid teak 6-seater dining table for my home. Where are the exact markets in Sri Lanka for these, how do I avoid counterfeit parts in Panchikawatte and fake stained teak in Moratuwa, and what price ranges should I expect in LKR?",
+      "expected_output": "Detailed sourcing for Panchikawatte (OEM vs 555/RBI/KYB aftermarket vs reconditioned) with old-sample matching, Moratuwa timber advice with unvarnished/raw timber inspection to avoid stained rubberwood/acacia scams, and realistic LKR price benchmarks.",
+      "files": [],
+      "assertions": [
+        "identifies_panchikawatte_for_auto_spares",
+        "identifies_moratuwa_for_wood_furniture",
+        "warns_against_fake_teak_acacia_rubberwood_stain",
+        "distinguishes_oem_vs_aftermarket_555_rbi_kyb",
+        "quotes_prices_in_lkr"
+      ]
+    }
+  ]
+}
